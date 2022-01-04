@@ -1,4 +1,4 @@
-function pred = svmPredict(model, X)
+function [pred, p] = svmPredict(model, X)
 %SVMPREDICT returns a vector of predictions using a trained SVM model
 %(svmTrain). 
 %   pred = SVMPREDICT(model, X) returns a vector of predictions using a 
