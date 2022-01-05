@@ -47,8 +47,11 @@ else
 end
 
 % Convert predictions into 0 / 1
+
 pred(p >= 0) =  1;
 pred(p <  0) =  0;
+
+p = 1./(1+exp(p));
 
 end
 
