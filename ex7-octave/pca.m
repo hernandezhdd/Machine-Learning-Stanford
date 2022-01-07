@@ -22,9 +22,9 @@ S = zeros(n);
 
 
 
-%CovMat = 1/m * X' * X ;
+CovMat = 1/m * X' * X ;
 
-CovMat = cov(X);
+% CovMat = cov(X);
 
 [U, S, _] = svd(CovMat);
 
