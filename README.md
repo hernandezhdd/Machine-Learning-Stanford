@@ -1,5 +1,5 @@
 # Machine-Learning-Coursera
-Exercises from Introduction to Machine Learning, written in Octave programming language. Each folder has a main Jupyter notebook file named ex{n}.ipynb.
+Exercises from Introduction to Machine Learning, written in Octave/MATLAB programming language. Each folder has a main Jupyter notebook file named ex{n}.ipynb.
 
  #### List:
 
