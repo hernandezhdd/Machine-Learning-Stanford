@@ -3,7 +3,7 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
 
  ### List:
 
- > - **ex1.ipynb** - Linear Regression and Gradient Descent  
+ > - **ex1.ipynb** - Linear Regression: Gradient Descent and Normal Equation   
  > - **ex2.ipynb** - Logistic Regression and Regularization  
  > - **ex3.ipynb** - Logistic Regression with Multiple Classes  
  > - **ex3_nn.ipynb** - Neural Networks 1: Architecture and Classification  
