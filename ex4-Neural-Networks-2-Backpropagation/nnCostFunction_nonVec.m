@@ -1,4 +1,4 @@
-function [J grad tiempos] = nnCostFunction(nn_params, ...
+function [J grad tiempos] = nnCostFunction_nonVec(nn_params, ...
                                    input_layer_size, ...
                                    hidden_layer_size, ...
                                    num_labels, ...
@@ -105,37 +105,54 @@ J = J + 0.5*lambda/m* ( sum(sum( Theta1(:,2:end).**2)) + sum(sum( Theta2(:,2:end
 # Variables' sizes X 5000X401 yVec 5000x10, Theta1 25x401, Theta2 10X26
 # a2 5000X25 a3 5000X10
 
-##Delta1 = zeros(hidden_layer_size, input_layer_size);
-##
-##Delta2 = zeros(num_labels, hidden_layer_size);
-
 Delta1 = zeros(hidden_layer_size, input_layer_size+1);
 
 Delta2 = zeros(num_labels, hidden_layer_size+1);
 
+tiempos = zeros(100*10,1);
 
-  tic
+for t=1:m
+  
+  if rem(t,m/10)==0
+    disp(t)
+  end
+
   z2 = X * Theta1';
-
+  % tiempos((t-1)*10+1) = toc;
+  
   a2 = sigmoid( z2);
-
+  % tiempos((t-1)*10+2) = toc; 
+  
   a2 = [ones(size(a2, 1), 1) a2]; # a2 5000X26 
-
+  % tiempos((t-1)*10+3) = toc;  #h_theta
+  
   z3 = a2 * Theta2';
+  % tiempos((t-1)*10+4) = toc;
+  
+  a3 = sigmoid( z3); # a3 5000X10
+  % tiempos((t-1)*10+5) = toc;
+  
+  delta3 = a3(t,:) - yVec(t,:);
+  % tiempos((t-1)*10+6) = toc;
 
-  a3 = sigmoid(z3); # a3 5000X10
+##  
+##           26X10      10X1          1X26
+  delta2 = transpose(Theta2' * delta3') .* ( (a2(t,:).*( 1 - a2(t,:) )) );
+  % tiempos((t-1)*10+7) = toc;
+  
+  Delta2 = Delta2 + delta3' * a2(t,:);
+  % tiempos((t-1)*10+8) = toc;
+  
+  delta1 = transpose(Theta1(:,2:end)' * delta2(2:end)') .* ( (X(t,2:end).*( 1 - X(t,2:end) )) );
+  % tiempos((t-1)*10+9) = toc;
+  
+  Delta1 = Delta1 + delta2(2:end)' * X(t,:);  
+  % tiempos((t-1)*10+10) = toc;
+end
 
-  delta3 = a3 - yVec;
- 
-##           26X10      10X5000          5000X26
-  delta2 = (  (Theta2' * delta3')' .* ( (a2.*( 1 - a2 )) )) ;
-
-  Delta2 = Delta2 + delta3' * a2;
-
-  delta1 = sum( transpose(Theta1(:,2:end)' * delta2(:,2:end)') .* ( (X(:,2:end).*( 1 - X(:,2:end) )) ));
-
-  Delta1 = Delta1 + delta2(:,2:end)' * X;  
-
+##Theta1_grad(:,2:end) = Delta1 / m;
+##  
+##Theta2_grad(:,2:end) = Delta2 / m;
 
 Theta1_grad = Delta1 / m;
   
@@ -148,6 +165,7 @@ Theta2_grad = Delta2 / m;
 %               the regularization separately and then add them to Theta1_grad
 %               and Theta2_grad from Part 2.
 %
+
 Theta1_grad(:,2:end) = Theta1_grad(:,2:end) + lambda/m * Theta1(:,2:end);
 
 Theta2_grad(:,2:end) = Theta2_grad(:,2:end) + lambda/m * Theta2(:,2:end);
@@ -159,6 +177,6 @@ Theta2_grad(:,2:end) = Theta2_grad(:,2:end) + lambda/m * Theta2(:,2:end);
 % Unroll gradients
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
 
-tiempos=toc;
+tiempos = toc;
 
 end
