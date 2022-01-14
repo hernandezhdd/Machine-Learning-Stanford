@@ -115,15 +115,15 @@ Delta2 = zeros(num_labels, hidden_layer_size+1);
 
 
   tic
-  z2 = X * Theta1';
+%   z2 = X * Theta1';
 
-  a2 = sigmoid( z2);
+%   a2 = sigmoid( z2);
 
-  a2 = [ones(size(a2, 1), 1) a2]; # a2 5000X26 
+%   a2 = [ones(size(a2, 1), 1) a2]; # a2 5000X26 
 
-  z3 = a2 * Theta2';
+%   z3 = a2 * Theta2';
 
-  a3 = sigmoid(z3); # a3 5000X10
+%   a3 = sigmoid(z3); # a3 5000X10
 
   delta3 = a3 - yVec;
  
