@@ -1,5 +1,9 @@
-# Machine-Learning-Coursera
+# Machine Learning - Stanford Online/Coursera
+
+This well known course by Andrew Ng is based on Stanford CS229 Machine Learning subject. It covers a broad range of algorithms such as Logistic Regression, SVMs, Neural Networks, Clustering, PCA, Collab Filtering and Recommender Systems.
+
 Exercises from Introduction to Machine Learning, written in Octave/MATLAB programming language. Each folder has a main Jupyter notebook file named **ex{n}.ipynb**.
+
 
 #### Regularization hyperparameter tuning
 
