@@ -20,7 +20,8 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
  > - **ex3.ipynb** - Logistic Regression with Multiple Classes  
  > - **ex3_nn.ipynb** - Neural Networks 1: Architecture and Classification  
  > - **ex4.ipynb** - Neural Networks 2: Backpropagation and Learning  
- > - **ex5.ipynb** - ML System Desing and Evaluation: Train/Validation/Test, Model Selection, Learning Curves, Bias/Variance, Overfitting and Underfitting   
+ > - **ex5.ipynb** - ML System Desing and Evaluation: Train/Validation/Test, <br>
+ Model Selection, Learning Curves, Bias/Variance, Overfitting and Underfitting   
  > - **ex6.ipynb** - Support Vector Machines with Linear and Gaussian Kernels   
  > - **ex6_spam.ipynb** - Spam Classifier, Skewed Classes and Error Metrics
  > - **ex7.ipynb** - Clustering with k-means   
