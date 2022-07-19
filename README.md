@@ -5,15 +5,23 @@ This well known course by Andrew Ng is based on Stanford CS229 Machine Learning 
 Exercises from Introduction to Machine Learning, written in Octave/MATLAB programming language. Each folder has a main Jupyter notebook file named **ex{n}.ipynb**.
 
 
-#### Regularization hyperparameter tuning
+<p align="center">
+  <b>Regularization hyperparameter tuning</b>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/154782391-5d8043b9-48e3-4261-a0ba-50975113c4b0.png"
+  />
+</p>
+<p align="center">
+  <b>Learning curve showing high bias</b>
+</p>
 
-![image](https://user-images.githubusercontent.com/71747228/154782391-5d8043b9-48e3-4261-a0ba-50975113c4b0.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/154782442-fd32d981-385b-45e8-bacd-48993602b570.png"
+  />
+</p>
 
-#### Learning curve showing high bias
-
-![image](https://user-images.githubusercontent.com/71747228/154782442-fd32d981-385b-45e8-bacd-48993602b570.png)
-
- ### List:
+ ### Assignment List:
 
  > - **ex1.ipynb** - Linear Regression: Gradient Descent and Normal Equation   
  > - **ex2.ipynb** - Logistic Regression and Regularization  
