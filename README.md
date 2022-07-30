@@ -2,18 +2,18 @@
 
 This well known course by Andrew Ng is based on Stanford CS229 Machine Learning subject. It covers a broad range of algorithms such as Logistic Regression, SVMs, Neural Networks, Clustering, PCA, Collab Filtering and Recommender Systems.
 
-Exercises from Introduction to Machine Learning, written in Octave/MATLAB programming language. Each folder has a main Jupyter notebook file named **ex{n}.ipynb**.
+Exercises from Introduction to Machine Learning, written in Octave/MATLAB programming language. Each folder has a main Jupyter notebook file named **ex{n}.ipynb**. Exercises 4 and 5 can be run in colab, using **ex{n}_colab.ipynb**. The folder **ex4_py** has a Python solution for the exercise.
 
 
 <p align="center">
-  <b>Regularization hyperparameter tuning</b>
+  <b>Exercise 5: Regularization hyperparameter tuning</b>
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/154782391-5d8043b9-48e3-4261-a0ba-50975113c4b0.png"
   />
 </p>
 <p align="center">
-  <b>Learning curve showing high bias</b>
+  <b>Exercise 5: Learning curve showing high bias</b>
 </p>
 
 <p align="center">
