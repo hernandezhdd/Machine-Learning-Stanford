@@ -12,12 +12,30 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
   <img src="https://user-images.githubusercontent.com/71747228/154782391-5d8043b9-48e3-4261-a0ba-50975113c4b0.png"
   />
 </p>
+
+<p align="center">
+  <b>Exercise 5: Linear regression for non-linear data</b>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/181934958-676854b5-fda8-4216-ab0a-61588d356e8a.png"
+  />
+</p>
+
 <p align="center">
   <b>Exercise 5: Learning curve showing high bias</b>
 </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/154782442-fd32d981-385b-45e8-bacd-48993602b570.png"
+  />
+</p>
+
+<p align="center">
+  <b>Exercise 5: Regularized Polynomial regression</b>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/181935018-1a9bfe22-963f-46d7-a052-8f599f1aa5fd.png"
   />
 </p>
 
