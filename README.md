@@ -75,3 +75,11 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
   <img src="https://user-images.githubusercontent.com/71747228/182029406-3b56042c-0d92-4599-a09c-eec4ecf7cd07.png"
   />
 </p>
+
+<p align="center">
+  <b>Exercise 7: Clustering using K-Means showing the update of the centroids</b>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/182029478-7b0116bf-a810-4e86-8ecc-666f11c47da4.png"
+  />
+</p>
