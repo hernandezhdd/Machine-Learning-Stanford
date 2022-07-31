@@ -37,6 +37,14 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
 </p>
 
 <p align="center">
+  <b>Exercise 6: SVM classifier with RBF kernel for non-linearly separable data</b>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/182029141-e4d9bbcd-723b-4ebb-82aa-457028339000.png"
+  />
+</p>
+
+<p align="center">
   <b>Exercise 5: Learning curve showing high bias</b>
 </p>
 <p align="center">
@@ -52,3 +60,10 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
   />
 </p>
 
+<p align="center">
+  <b>Exercise 4: Neural Network for recognizing digits</b>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/182029279-851c4517-5247-4cde-867d-3326d6545fd1.png"
+  />
+</p>
