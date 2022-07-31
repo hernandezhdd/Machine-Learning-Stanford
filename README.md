@@ -67,3 +67,11 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
   <img src="https://user-images.githubusercontent.com/71747228/182029279-851c4517-5247-4cde-867d-3326d6545fd1.png"
   />
 </p>
+
+<p align="center">
+  <b>Exercise 8: Anomaly detection</b>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/182029406-3b56042c-0d92-4599-a09c-eec4ecf7cd07.png"
+  />
+</p>
