@@ -40,8 +40,8 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
   <b>Exercise 6: SVM classifier with RBF kernel for non-linearly separable data</b>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71747228/182029141-e4d9bbcd-723b-4ebb-82aa-457028339000.png"
-  />
+  <img src="https://user-images.githubusercontent.com/71747228/182029141-e4d9bbcd-723b-4ebb-82aa-457028339000.png" height="350"/>
+  <img src="https://user-images.githubusercontent.com/71747228/182235773-ccb9d47f-e574-47f0-95f6-b30b076f3f91.png" height="350"/>
 </p>
 
 <p align="center">
