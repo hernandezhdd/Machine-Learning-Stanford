@@ -29,27 +29,21 @@ Exercises from Introduction to Machine Learning, written in Octave/MATLAB progra
  > - **ex8_cofi.ipynb** - Recommender Systems with Collaborative Filtering
 
 <p align="center">
-  <b>Exercise 5: Linear regression for non-linear data</b>
+  <b>Exercise 5: Linear regression for non-linear data with its learning curve showing high bias</b>
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/181934958-676854b5-fda8-4216-ab0a-61588d356e8a.png"
-  />
+   width="475"/>
+  <img src="https://user-images.githubusercontent.com/71747228/154782442-fd32d981-385b-45e8-bacd-48993602b570.png"
+   width="500"/>
 </p>
 
 <p align="center">
   <b>Exercise 6: SVM classifier with RBF kernel for non-linearly separable data</b>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71747228/182029141-e4d9bbcd-723b-4ebb-82aa-457028339000.png" height="350"/>
-  <img src="https://user-images.githubusercontent.com/71747228/182235773-ccb9d47f-e574-47f0-95f6-b30b076f3f91.png" height="350"/>
-</p>
-
-<p align="center">
-  <b>Exercise 5: Learning curve showing high bias</b>
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/71747228/154782442-fd32d981-385b-45e8-bacd-48993602b570.png"
-  />
+  <img src="https://user-images.githubusercontent.com/71747228/182239246-13caac2a-84f0-4552-8a95-0fb0160bba65.png" height="425"/>
+  <img src="https://user-images.githubusercontent.com/71747228/182239085-4de86f67-5145-4eaa-9648-9c4b83c31d32.png" height="425"/>
 </p>
 
 <p align="center">
